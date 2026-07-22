@@ -4,7 +4,7 @@ author: 'wcagscannerr'
 
 inputs:
   api-key:
-    description: 'WCAG Scanner API key. Use ${{ secrets.WCAG_API_KEY }} in production workflows.'
+    description: 'WCAG Scanner API key. Set as WCAG_API_KEY in your repository secrets.'
     required: true
   url:
     description: 'URL to scan (e.g. https://example.com).'
